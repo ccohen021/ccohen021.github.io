@@ -1,27 +1,37 @@
 body {
-    margin: 0;
+    font-family: 'Roboto', sans-serif, Arial;
+    display: flex;
+    /*grid-template-columns: auto auto;*/
+}
+
+main {
+    margin-left: 20%;
 }
 
 header {
-    background-color: royalblue;
-    text-align: center;
-    padding: 10%;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-size: xx-large;
-    background-image: url(banner.jpg);
-    filter: brightness(80%);
-}
-
-header > h1 {
-    padding: 0;
+    position: fixed;
+    top: 15%;
+    left: 2%;
+    height: 100%;
 }
 
 h1 {
-    text-align: center;
+    padding-bottom: 40%;
 }
 
-.container {
-    padding-left: 5%;
-    padding-right: 5%;
+h1, nav {
+    font-weight: lighter;
+    font-size: 120%;
+    text-transform: uppercase;
 }
+
+header > nav > a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 150%;
+}
+
+
+
+
