@@ -1,37 +1,67 @@
 body {
-    font-family: 'Roboto', sans-serif, Arial;
-    display: flex;
-    /*grid-template-columns: auto auto;*/
+    margin: 0;
+    font-family: "Roboto", sans-serif, "Arial";
+    font-size: x-large;
+    overflow: hidden;
+    height: 100vh;
 }
+
+/*header {*/
+/*    text-align: center;*/
+/*    padding: 10%;*/
+/*    color: white;*/
+/*    font-size: xx-large;*/
+/*    background-image: url(banner.jpg);*/
+/*    filter: brightness(80%);*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+h1 {
+    padding: 0;
+    text-align: center;
+}
+
+a:hover {
+    background-color: lightgray;
+}
+
+aside {
+    flex: 1 0 0%;
+    padding: 10% 10%;
+    background: linear-gradient(90deg, lightgray 20%, #FFF 0%);
+}
+
+
 
 main {
-    margin-left: 20%;
+    padding: 0% 1%;
+    overflow-y: auto;
 }
 
-header {
-    position: fixed;
-    top: 15%;
-    left: 2%;
+h2 {
+    text-align: center;
+}
+
+#about > div {
+    display: flex;
+    gap: 5%;
+}
+
+img {
+    width: auto;
     height: 100%;
 }
 
-h1 {
-    padding-bottom: 40%;
+.container {
+    display: flex;
+    height: 100%;
+
 }
 
-h1, nav {
-    font-weight: lighter;
-    font-size: 120%;
-    text-transform: uppercase;
-}
-
-header > nav > a {
+aside> a {
     display: block;
     text-decoration: none;
     color: black;
     line-height: 150%;
+    text-align: center;
 }
-
-
-
-
