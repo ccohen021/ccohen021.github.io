@@ -16,13 +16,12 @@ a:hover {
 }
 
 aside {
-    flex: 1 0 0%;
     padding: 10% 10%;
     background: linear-gradient(90deg, lightgray 20%, #FFF 0%);
+    width: 10vw;
 }
 
 main {
-    /*padding: 0% 1%;*/
     overflow-y: auto;
 }
 
@@ -64,9 +63,7 @@ h2 {
     }
 
     aside {
-        /*overflow: hidden;*/
-        background-color: #333;
-        /*position: relative;*/
+        background-color: #FFFFFF;
     }
 
     aside > a {
